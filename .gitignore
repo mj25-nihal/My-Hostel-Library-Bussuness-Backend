@@ -1,0 +1,31 @@
+# Ignore Python stuff
+env/
+__pycache__/
+*.pyc
+hostel_library_backend/core/db.sqlite3
+
+
+
+# Ignore secrets
+.env
+*.log
+
+hostel_library_backend/core/media/aadhaar_photos/
+hostel_library_backend/core/media/complaints
+hostel_library_backend/core/media/profile_photos
+
+.env.production
+
+core/db.sqlite3
+
+core/.env.production
+
+core/core/__pycache__/settings.cpython-312.pyc
+
+venv
+
+media/profile_photos
+media/aadhaar_photos
+/media/complaints
+media
+core/staticfiles/
